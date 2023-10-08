@@ -98,8 +98,7 @@ spec:
           vm_name: ${{ parameters.vm_name }}
           vm_type: ${{ parameters.vm_type }}
           username: ${{ parameters.username }}
-          username
-
+        
     - action: catalog:write
       id: create-catalog-info-file
       name: Create catalog file
