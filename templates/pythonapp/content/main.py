@@ -1,0 +1,1 @@
+print("This is the "+ ${{ values.name }} +"application and it was created starting from a template!")
